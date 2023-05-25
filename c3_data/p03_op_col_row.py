@@ -9,6 +9,7 @@ wb = openpyxl.load_workbook(filepath)
 ws = wb['Sheet1']
 
 #열(columns), 행(rows) 객체
+#튜플로 가지고 온것에 주의할것
 cols = tuple(ws.columns)
 rows = tuple(ws.rows)
 
